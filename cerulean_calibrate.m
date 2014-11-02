@@ -21,6 +21,7 @@ ds = cerulean_load_calibration(ds);
 [~,elements] = size(ds.calibration.lum);
 ds.calibration.stepsize = stepsize;
 ds.calibration.xdata = 0:stepsize:1;
+ds.calibration
 ds.calibration.xdata = ds.calibration.xdata(end-elements+1:end);
 ds.red.gamut = squeeze(ds.calibration.xy(1,end,:));
 ds.green.gamut = squeeze(ds.calibration.xy(2,end,:));

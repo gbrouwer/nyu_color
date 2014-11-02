@@ -1,4 +1,4 @@
-function ds = fandango_load_calibration(ds)
+function ds = cerulean_load_calibration(ds)
 
 
 %Load Calibration data

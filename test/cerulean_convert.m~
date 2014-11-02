@@ -1,0 +1,15 @@
+function cerulean_convert
+
+
+%Init
+clc;
+load('cerulean_LCD at scanner - 10262010');
+
+
+%Create Space
+A = sin(linspace(0,2*pi,100));
+B = sin(linspace(0,2*pi,100));
+A = A(1:end-1);
+B = B(1:end-1);
+L = 100;
+ds.LAB 
